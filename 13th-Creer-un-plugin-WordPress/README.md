@@ -12,11 +12,13 @@ To run this project you must follow these steps :
 ```
 2nd Step: Copy the plugin fils
 ```
-3rd Step: copy all this folder and Paste in wp-content\plugins in your wordpress instalation folder the folder must be named "FirstPlugs" or any name you want.
+3rd Step: create a folder in wp-content\plugins in your wordpress instalation folder the folder must be named "FirstPlugs" or any name you want.
 ```
-4rd step: Activite the plugin from the dashboard of wordpress
+4rd Step: copy all this fils and Paste in wp-content\plugins\[Your-folder] in your wordpress instalation.
 ```
-5th step: go to "Page-sitting" and swuitch name of database from "myfirstplugins" to your name of database.
+5td step: Activite the plugin from the dashboard of wordpress
+```
+6th step: go to "Page-sitting" and swuitch name of database from "myfirstplugins" to your name of database.
 ```
 
 
