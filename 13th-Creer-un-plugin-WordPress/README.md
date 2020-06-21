@@ -8,15 +8,15 @@ Create a WordPress plugin with a configuration page with a settings page for the
 To run this project you must follow these steps :
 
 ```
-1st Step: Extract file
+1st Step: Extract file.
 ```
-2nd Step: Copy the plugin fils
+2nd Step: Copy the plugin fils.
 ```
 3rd Step: create a folder in wp-content\plugins in your wordpress instalation folder the folder must be named "FirstPlugs" or any name you want.
 ```
 4rd Step: copy all this fils and Paste in wp-content\plugins\[Your-folder] in your wordpress instalation.
 ```
-5td step: Activite the plugin from the dashboard of wordpress
+5td step: Activite the plugin from the dashboard of wordpress.
 ```
 6th step: go to "Page-sitting" and swuitch name of database from "myfirstplugins" to your name of database.
 ```
