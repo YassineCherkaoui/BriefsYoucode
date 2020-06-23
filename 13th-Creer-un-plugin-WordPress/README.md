@@ -1,31 +1,11 @@
-# 13th-Create-a-WordPress-plugin
 
-## Description
-Create a WordPress plugin with a configuration page with a settings page for the administration part of the created plugin (backoffice). The plugin has 2 submenus: one for general information of the plugin and one for settings. The configuration page has an input text field, textarea for the description, a list of options and a save button in the DB.
+## How To Install?
 
-## How To Run??
 
-To run this project you must follow these steps :
 
-```
-1st Step: Extract file.
-
-```
-2nd Step: Copy the plugin fils.
-
-```
-3rd Step: create a folder in wp-content\plugins in your wordpress instalation folder the folder must be named "FirstPlugs" or any name you want.
-
-```
-4rd Step: copy all this fils and Paste in wp-content\plugins\[Your-folder] in your wordpress instalation.
-
-```
-5td step: Activite the plugin from the dashboard of wordpress
-
-```
-6th step: go to "Page-sitting" and swuitch name of database from "myfirstplugins" to your name of database.
-
-```
+- Download & Extract the file
+- Copy the plugin folder and paste it in wp-content\plugins in your wordpress folder 
+- Go to your plugin managment in wordpress dashboard and activate it by clicking activate
 
 
 
