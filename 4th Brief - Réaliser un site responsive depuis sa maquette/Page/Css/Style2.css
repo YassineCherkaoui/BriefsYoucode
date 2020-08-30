@@ -1,0 +1,650 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: url(../img/Em.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 500px;
+}
+
+.containner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+.info-1 h1{
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.info-1 p {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+label{
+    color: #EFD6AC;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+}
+#toggle{
+    display:none;
+}
+.info-cmp > img{
+
+    padding: 10px;
+    margin-left: 30px;
+
+}
+li:hover{
+    cursor: pointer;
+}
+.title{
+   width: auto;
+   margin-left: 160px;
+   color: #FFF;
+
+}
+.btn2{
+    background-color:#FFF;
+    width: 150px;
+    color: black;
+    font-size: 14px;
+    border: 0px;
+    margin-top: -10px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    height: 40px;
+}
+.table_menu
+{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.table_menu td
+{
+    height: 50px;
+    text-align: center;
+   color: #FFF;
+}
+.table_menu td:hover
+{
+    height: 50px;
+    text-align: center;
+   color: #000;
+   background-color: #FFF;
+   cursor: pointer;
+}
+.table_menu th
+{
+    height: 70px;
+    text-align: center;
+    margin: auto;
+}
+.menu1
+{
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.direction{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.yaa{
+    text-decoration: none;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button :hover{
+      background-color: red;
+  }
+
+  .ftr{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.champ1{
+    width: 30%;
+    padding: 0px 30px;
+}
+.champ1 h2{
+    font-size: 15px;
+    color: #688095;
+    font-weight: 400;
+}
+.champ1 h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #EFD6AC;
+}
+.champ2{
+    padding: 0px 10px;
+    width: 20%;
+}
+.champ2 h1{
+    font-size: 20px;
+    color: #688095;
+}
+.champ2 p{
+    font-size: 15px;
+    color: #AAA9A9;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.champ2 p::before{
+    content: "➥";
+    color: rgb(104, 128, 149);
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.champ3{
+    width: 30%;
+    padding: 0px 30px;
+}
+.champ3 h1{
+    font-size: 20px;
+    color: #688095;
+}
+.champ3 h2{
+    font-size: 15px;
+    color: #688095;
+    font-weight: 400;
+}
+.footer2{
+    height: 40px;
+    background-color: #688095;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer2 p{
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+}
+.ttl{
+    text-align: center;
+    font-size: 362%;
+    font-family: auto;
+    text-shadow: 9px 11px 15px #564;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+  }
+  
+  
+.ftr{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.champ1{
+    width: 30%;
+    padding: 0px 30px;
+}
+.champ1 h2{
+    font-size: 15px;
+    color: #688095;
+    font-weight: 400;
+}
+.champ1 h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #EFD6AC;
+}
+.champ2{
+    padding: 0px 10px;
+    width: 20%;
+}
+.champ2 h1{
+    font-size: 20px;
+    color: #688095;
+}
+.champ2 p{
+    font-size: 15px;
+    color: #AAA9A9;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.champ2 p::before{
+    content: "➥";
+    color: rgb(104, 128, 149);
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.champ3{
+    width: 30%;
+    padding: 0px 30px;
+}
+.champ3 h1{
+    font-size: 20px;
+    color: #688095;
+}
+.champ3 h2{
+    font-size: 15px;
+    color: #688095;
+    font-weight: 400;
+}
+.footer2{
+    height: 40px;
+    background-color: #688095;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer2 p{
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+}
+
+
+
+/*responsive*/
+@media screen and (max-width:1275px){
+
+ul{
+    display: none;
+}
+.info-cmp{
+    display: none;
+}
+.title{
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+.logo{
+   margin: auto;
+}
+.menu  {
+    text-align: center;
+    width: 100%;   
+    display: none;
+}
+.menu a {
+    display:block;
+    border-bottom:1px solid #EAEAEB;
+    margin:0;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+label{
+    display: block;
+}
+#toggle:checked + .menu1{
+    display: block;
+}
+
+.gnrl{
+    display: flex;
+    width: 90%;
+    height: 504px;
+    background: aliceblue;
+    margin: 60px auto;
+    position: absolute;
+    left: 5%;
+    top: -26%;
+}
+
+.taille{
+    width: auto;
+}
+
+.generale{
+    position: relative;
+    width: auto;
+    
+}
+.c2{
+    margin-top: 80px;
+}
+.direction{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+span{
+    float:right;
+}
+.exp{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #C49D48;
+}
+#exp1{
+    margin-left: -100px;
+}
+.vide{
+    height: 20%;
+}
+.image-2{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.taille{
+    width: 200px;
+}
+#boitname{
+    width: 30%;
+    height: 50px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40%;
+    }
+    
+    #boiteml{
+    border-radius: 4px;
+    width: 30%;
+    height: 50px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40%;
+    }
+    #boitmsg{
+    border-radius: 4px;
+    width: 30%;
+    height: 200px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40%;
+    }
+    .ftr{
+    display: block;
+    width: 90%;
+    margin: auto;
+    }
+    .champ1{
+        width: 100%;
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .champ1 h2{
+        font-size: 15px;
+        color: #688095;
+        font-weight: 400;
+    }
+    .champ1 h3{
+        font-size: 30px;
+        font-weight: 600;
+        color: #EFD6AC;
+    }
+    .champ2{
+        width: 100%;
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .champ2 h1{
+        font-size: 20px;
+        color: #688095;
+    }
+    .champ2 p{
+        font-size: 15px;
+        color: #AAA9A9;
+        font-weight: 700;
+        padding-bottom: 8px;
+    }
+    .champ2 p::before{
+        content: "➥";
+        color: rgb(104, 128, 149);
+        font-size: 20px;
+        font-weight: 800;
+        padding-right: 10px;
+    }
+    .champ3{
+        width: 100%;
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .champ3 h1{
+        font-size: 20px;
+        color: #688095;
+    }
+    .champ3 h2{
+        font-size: 15px;
+        color: #688095;
+        font-weight: 400;
+    }
+    .footer2{
+        height: 40px;
+        background-color: #688095;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer2 p{
+        flex: 1;
+        text-align: center;
+        color: #FFF;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .table_menu
+    {
+        width: auto;
+        text-align: center;
+        margin: auto;
+    }
+    .img1{
+
+        width: 100%;
+    
+    }
+    .direction{
+        background-color: #688095;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+    }
+    .gnrl{
+        display: flex;
+        width: 90%;
+        height: 504px;
+        background: aliceblue;
+        margin: 60px auto;
+        position: static;
+        
+    }
+    .footer3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer3a {
+        width: 80%;
+        margin: 30px;
+    }
+    .footer3b {
+        width: 80%;
+        margin: 30px;
+    }
+    .footer3c {
+        width: 80%;
+        margin: 30px;
+    }
+    #boitname{
+        width: 50%;
+        height: 50px;
+        border: 2px solid #000;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 40%;
+        }
+        
+        #boiteml{
+        border-radius: 4px;
+        width: 50%;
+        height: 50px;
+        border: 2px solid #000;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 40%;
+        }
+        #boitmsg{
+        border-radius: 4px;
+        width: 50%;
+        height: 200px;
+        border: 2px solid #000;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 40%;
+        }
+    
+}
+
+
+
+
+
+
+
+
