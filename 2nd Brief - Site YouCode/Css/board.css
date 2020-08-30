@@ -1,0 +1,224 @@
+body{
+  margin: 0px;
+}
+#up{
+   width: 70px;
+   top: 600px;
+   left: 30px;
+   position: fixed;
+}
+
+header{
+  position: fixed;
+   background-color: black;
+   font-family: sans-serif;
+   height: 70px;
+   z-index: 1;
+   width: 100%;
+}
+
+
+header img{
+   
+   width: 40x;
+   height: 40px;
+   margin-left: 200px;
+   margin-top: 10px;
+
+}
+
+.menu{
+margin-top: -8px;
+flex-direction: column;
+      
+}
+
+
+.title{
+   
+   font-size: 24px;
+   color: white;
+   background-image: url("../img/Safi.png");
+   background-size: cover;
+   background-position: center;
+   margin-top: 0px;
+   margin-left: -10px;
+   padding: 130px;
+   letter-spacing: 2px; 
+}
+
+.menu a
+{
+  margin-top: 58px;
+  font-size: 14px;
+  position: relative;
+  left: 8%;
+  top: -9px;
+  padding: -2px;
+  margin: 0px;
+  margin-left: 60px;
+  color: white;
+  text-decoration: none;
+   
+}
+
+h1{
+   font-size: 40px;
+}
+.container{
+   margin-top: 90px;
+   text-align: center;
+   
+   
+}
+p{
+   font-size: 17px;
+    line-height:25px;
+   
+}
+
+
+
+button{ 
+   
+  background-color: #038DFE;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  position: absolute;
+  left: 80%;
+  top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+button:hover{
+   background-color: white;
+ box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+ color: #57A9EC;
+ transform: translateY(-7px);
+}
+
+.footer{
+     
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  top: 2914px;
+  flex-flow: row;
+  
+}
+.contact p{
+  position: relative;
+  right: 4px;
+  top: 20px;
+}
+.contact {
+  position: relative;
+  right: 250px;
+  top:-20px;
+}
+
+.copy {
+  position: relative;
+  top:10px;
+  
+}
+.last{
+  position: relative;
+  top:20px;
+  right: 30px;
+  
+}
+.last img{
+  position: relative;
+  top: 10px;
+  padding: 8px;
+  height: 17px;
+}
+.table4{
+     
+  color: #666666;
+  text-align: right;
+  width: 100%; 
+  font-family: montserrat;
+  letter-spacing: 0.08em;
+}
+
+.last{
+  float:right;
+}
+.copy {
+  position: relative;
+  top:10px;
+  
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  flex-direction: column;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+input[type="checkbox"]{
+  width:200px;
+  height: 20px;
+  
+}
+#yass{
+  font-size: .9rem;
+  padding: 2px 5px;
+}
+
+.table2{
+  margin-top: 100px;
+  text-align: center;
+}
+.button {
+  background-color: #038DFE;
+  border: black;
+  color: white;
+  padding: 32px 126px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 29px;
+  margin: 22px 8px;
+  cursor: pointer;
+  border-radius: 98px;
+
+  margin-left: 900px;
+}
+.button:hover{
+  background-color: green;
+  color: black;
+}
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+margin: 0.4rem 2px;
+margin-left: -85%;
+}
+
+h2{
+  font-size: 30px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Css/TeamCss.css">
+<link rel="icon" href="img/icone header.jpg" type="image/jpg" sizes="12x12">
+</head>
+<body>
+
+
+<div class="main">
+
+<h1>YouCode Solder's</h1>
+<hr>
+<h2>Condidat</h2>
+
+<div class="row">
+  <div class="column ">
+    <div class="content">
+      <img src="img/myimg.jpg" alt="My Image" style="width:100%">
+      <h4>Yassine Cherkaoui</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>..................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>....................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+
+  <div class="column ">
+    <div class="content">
+      <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+    <img src="img/pers.png" alt="pic" style="width:100%">
+      <h4>Name</h4>
+      <p>...................</p>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+
+
+</script>
+
+</body>
+</html>

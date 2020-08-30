@@ -1,0 +1,654 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.nav img {
+    position: fixed;
+    left: 110px;
+    width: 40x;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.nav {
+    position: fixed;
+    background-color: black;
+    border-bottom: 2px solid #000000;
+    text-align: right;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    z-index: 1;
+}
+
+.menu {
+    margin: 0 110px 0 0;
+
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+
+    margin: 0 30px 0 20px;
+    line-height: 60px;
+
+    text-decoration: none;
+
+}
+
+.button {
+
+    background-color: #038DFE;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #038DFE;
+}
+
+span {
+    color: #54D17A;
+}
+
+label {
+    color: white;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.logo,
+.menu,
+.check {
+    display: inline-block;
+
+}
+
+.btn {
+    background-color: #038dfe;
+    border: #038dfe solid 1px;
+
+    padding: 10px 35px;
+    border-radius: 10rem;
+}
+
+nav {
+    background-image: url("../img/slide1.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header {
+    width: 95%;
+    margin: auto;
+    height: 69px;
+}
+
+.menu {
+    color: white;
+    overflow: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.second {
+    height: fit-content;
+    padding: 0px 15px;
+    width: fit-content;
+    position: absolute;
+    top: 35%;
+    left: 5%
+}
+
+.second h2 {
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.second a {
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10rem;
+}
+
+.aaa {
+    margin-top: 50px;
+}
+
+.second .decouvrir {
+
+    background-color: #038dfe;
+    border: #038dfe solid 1px;
+}
+
+.second .inscri2 {
+    border: white solid 2px;
+}
+
+.second p {
+    color: white;
+
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.btn:hover,
+.inscri2:hover {
+    cursor: pointer;
+    color: #337ab7;
+    background-color: white;
+    border-color: white;
+
+}
+
+.decouvrir:hover {
+    cursor: pointer;
+    color: #337ab7;
+    background-color: white;
+    border-color: white;
+}
+
+
+.youcode-eco {
+    text-align: center;
+    margin-top: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.youcode-eco p {
+    padding-top: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.youcode-eco h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #2b2b2b;
+    letter-spacing: 0.08em;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+}
+
+.container p {
+    padding-top: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.container h4 {
+    margin: 25px 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #496174;
+    letter-spacing: 0.08em;
+
+}
+
+.container i {
+    font-size: 46px;
+    color: #008aff;
+}
+
+.container div {
+    padding-top: 60px;
+}
+
+.QST {
+    display: flex;
+    width: 100%;
+
+    margin-top: 63px;
+
+}
+
+.slide {
+
+    display: inline-block;
+    background-image: url(../img/hack3.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+
+}
+
+.R {
+
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-image: linear-gradient(#038DFE, #0064B6);
+    color: white;
+    padding: 60px;
+    height: 70vh;
+
+
+}
+
+.R h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.R h4 {
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.R p {
+
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.simplon {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/simplon.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.simplon span {
+    font-size: 18px;
+    color: #038dfe;
+}
+
+.simplon p {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.simpl {
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.numbers {
+    display: flex;
+    color: white;
+    padding: 60px 0;
+    background-color: #038dfe;
+    text-align: center;
+
+}
+
+.numbers div {
+    flex: 1;
+
+}
+
+.numbers div.d2,
+.d3 {
+    border-left: black dashed 1px;
+}
+
+.numbers div h1 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.iden-simpl {
+    margin-top: 20px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.iden-simpl p {
+    line-height: 250%;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #666666;
+}
+
+.sponsor {
+    text-align: center;
+    padding: 50px 0 100px;
+}
+
+.sponsor h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 40px;
+    letter-spacing: 0.08em;
+
+}
+
+.form {
+    width: 85%;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+
+.form h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #2b2b2b;
+    letter-spacing: 0.08em;
+    margin: 0 15px;
+    display: inline-block;
+
+}
+
+.form a {
+    width: 50%;
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    background-color: #038dfe;
+    border: #038dfe solid 1px;
+    padding: 10px 0px;
+    border-radius: 10rem;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+    display: inline-block;
+
+}
+
+.form a:hover {
+    cursor: pointer;
+    color: #337ab7;
+    background-color: white;
+    border-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+.foo {
+    width: 95%;
+    height: 75%;
+
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.foo1,
+.foo2,
+.foo3 {
+    display: inline-block;
+    flex: 1;
+
+}
+
+.foo1 p,
+.foo2 p,
+.foo3 p {
+    color: #666666;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.foo1 i,
+.foo2 i,
+.foo3 i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.foo2 {
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+.foo3 {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:1260px) {
+
+    .logo {
+        width: auto;
+        height: 80px;
+        display: block;
+        margin: auto;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu img {
+        position: fixed;
+        left: 175px;
+        top: 6px;
+        width: 40x;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: 10px;
+
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+    .button {
+        border-radius: 0px;
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form h2,
+    a {
+        width: 80%;
+    }
+
+    .form h2 {
+        margin-bottom: 20px;
+    }
+
+    .second {
+        left: 30%;
+
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    .foo {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .foo3 {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .numbers {
+        flex-direction: column;
+    }
+
+    .QST {
+        display: block;
+    }
+
+    .R,
+    .slide {
+        width: 100%;
+        background-position: center;
+        height: 80vh;
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form h2,
+    a {
+        width: 80%;
+    }
+
+    .form h2 {
+        margin-bottom: 20px;
+    }
+
+    .second {
+        left: 15%;
+    }
+
+    .second h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:526px) {
+    .header {
+        overflow-y: hidden;
+        width: 100%;
+        background-color: black;
+    }
+
+    .second {
+        margin: auto;
+    }
+
+    .second a {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .second a:first-child {
+        margin-bottom: 25px;
+    }
+
+    .second {
+        left: 0%;
+
+    }
+
+
+}

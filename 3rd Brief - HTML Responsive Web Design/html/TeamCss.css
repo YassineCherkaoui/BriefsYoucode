@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../img/background.jpg);
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+ 
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    color: white;
+  }
+
+  .row {
+    margin: 10px -16px;
+  }
+  
+
+  .row,
+  .row > .column {
+    padding: 10px;
+  }
+  
+
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; 
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .show {
+    display: block;
+  }
+  h2{
+      color: white;
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1250px){
+    *{
+      position: relative;
+      flex-direction: column;
+    }
+    .content{
+      font-size: 9px;
+    }
+  }
+  
+
